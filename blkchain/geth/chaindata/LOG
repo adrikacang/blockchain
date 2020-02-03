@@ -14,3 +14,15 @@
 00:33:23.435810 version@stat F·[1] S·551B[551B] Sc·[0.25]
 00:33:23.437329 db@janitor F·3 G·0
 00:33:23.437374 db@open done T·8.87297ms
+=============== Jan 27, 2020 (GMT) ===============
+20:02:00.129662 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:02:00.130838 version@stat F·[1] S·551B[551B] Sc·[0.25]
+20:02:00.130869 db@open opening
+20:02:00.130966 journal@recovery F·1
+20:02:00.135574 journal@recovery recovering @3
+20:02:00.137671 memdb@flush created L0@5 N·236 S·10KiB "Dat..ion,v11":"r\x00\x00..\xd5i\n,v242"
+20:02:00.140759 version@stat F·[2] S·10KiB[10KiB] Sc·[0.50]
+20:02:00.146685 db@janitor F·4 G·0
+20:02:00.146751 db@open done T·15.861222ms
+20:12:49.800194 db@close closing
+20:12:49.800396 db@close done T·199.429µs

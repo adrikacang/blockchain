@@ -1,7 +1,8 @@
-pragma solidity ^0.4.15;
+pragma solidity ^0.6.1;
+
 contract Hello {
    string public message;
-   function Hello() {
-   message = "Hello, World : This is a Solidity Smart Contract on the Private Ethereum Blockchain ";
+   constructor() public {
+     message = "Hello, World : This is a Solidity Smart Contract on the Private Ethereum Blockchain ";
    }
 }
